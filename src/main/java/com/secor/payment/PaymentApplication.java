@@ -9,7 +9,11 @@ public class PaymentApplication {
 
     public static void main(String[] args)
     {
-        SpringApplication.run(PaymentApplication.class, args);
-    }
+        SpringApplication application = new SpringApplication(PaymentApplication.class);
+
+        // Set the active profile programmatically
+        application.setAdditionalProfiles("dev");
+
+        application.run(args);    }
 
 }

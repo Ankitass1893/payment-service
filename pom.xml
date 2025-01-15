@@ -64,10 +64,7 @@
             <groupId>io.opentelemetry</groupId>
             <artifactId>opentelemetry-exporter-zipkin</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
-        </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.github.loki4j/loki-logback-appender -->
         <dependency>
             <groupId>com.github.loki4j</groupId>
